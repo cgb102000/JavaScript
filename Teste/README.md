@@ -1,4 +1,4 @@
-# html-css
+# javascript
  HTML5 e CSS3 e JS
  Agora vou hospedar meus arquivos no git e github.
  
