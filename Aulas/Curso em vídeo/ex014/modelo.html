@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
-        <h1>Verificador de idade</h1>
+        <h1 style="text-align: center;" id="heading">Verificador de idade</h1>
     </header>
 
 
     <section>     
          
-        <div>
+        <div id="principal">
             <p>
                 Ano de nascimento:
                 <input type="number" name="txtano" id="txtano" min="4">
@@ -29,7 +29,7 @@
                 <label for="fem">Feminino</label>
             </p>
             <p>
-                <input type="button" value="Verificar" onclick="verificar()">
+                <input style="margin: auto;display: block;" type="button" value="Verificar" onclick="verificar()">
             </p>
 
         </div>
@@ -47,7 +47,7 @@
 
     <footer>
 
-        <p>Site criado por &copy;Caio Gabriel </p>
+        <p id="cp" style="text-align: center;">Site criado por &copy;Caio Gabriel </p>
     </footer>
     <script src="assets/scripts/script.js"></script>
 </body>
