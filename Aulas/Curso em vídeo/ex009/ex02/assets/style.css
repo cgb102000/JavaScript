@@ -1,0 +1,22 @@
+div{
+    display: inline-block;
+   
+}
+body{
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-shadow: 2px 2px 2px black;
+}
+button{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 500px;
+    background-color: pink;
+    border: 2px solid black;
+}

@@ -1,0 +1,37 @@
+:root{
+    --corprincipal:gray;
+    --corsecundaria:white;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    color: var(--corsecundaria);
+    background-color: var(--corprincipal);
+    text-align: center;
+    height: 10vh;
+    font-size:3rem;
+    font-variant: small-caps;
+}
+
+main{
+    margin: auto;
+    max-width: 900px;
+    box-shadow: 3px 1px 3px 3px black;
+}
+
+footer{
+
+    text-align: center;
+    background-color: var(--corprincipal);
+    color: var(--corsecundaria);
+    height: 10vh;
+    font-size: 2rem;
+}
