@@ -1,7 +1,7 @@
 function carregar() {
     let tema = prompt(` Escolha um tema, pelo número. \n 1-Escuro \n 2-Claro  `)
     const data = new Date()
-    const hora = 11//data.getHours()
+    const hora = data.getHours()
     const msg = document.getElementById('msg')
 
     

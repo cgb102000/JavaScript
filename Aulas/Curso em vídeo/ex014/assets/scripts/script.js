@@ -21,8 +21,7 @@ function verificar() {
                 img.setAttribute('src', './assets/imagens/criancam.png')
                 document.body.style.backgroundImage = "url('./assets/imagens/bg1.png')";                
                 document.getElementById("heading").style.color = "white";
-                document.getElementById("heading").style.textShadow = "none"
-                
+                document.getElementById("heading").style.textShadow = "none"            
         
                 
         
